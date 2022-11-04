@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A876B58528F9B4310094E884 /* countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = A876B58428F9B4310094E884 /* countries.swift */; };
+		A8A4176328F6E1FA00027D86 /* tabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A4176228F6E1FA00027D86 /* tabBar.swift */; };
+		A8A4176528F6E4CA00027D86 /* tabBarBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A4176428F6E4CA00027D86 /* tabBarBtn.swift */; };
+		A8A4176728F8406600027D86 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A4176628F8406600027D86 /* CountryView.swift */; };
 		A8E8918228F5776A002DE988 /* weathappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8918128F5776A002DE988 /* weathappApp.swift */; };
 		A8E8918428F5776A002DE988 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8918328F5776A002DE988 /* ContentView.swift */; };
 		A8E8918628F5776B002DE988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E8918528F5776B002DE988 /* Assets.xcassets */; };
@@ -16,6 +20,8 @@
 		A8E8919828F5776B002DE988 /* weathappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8919728F5776B002DE988 /* weathappTests.swift */; };
 		A8E891A228F5776B002DE988 /* weathappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E891A128F5776B002DE988 /* weathappUITests.swift */; };
 		A8E891A428F5776B002DE988 /* weathappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E891A328F5776B002DE988 /* weathappUITestsLaunchTests.swift */; };
+		A8E891B228F57791002DE988 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E891B128F57791002DE988 /* HomePage.swift */; };
+		A8E891B528F577A3002DE988 /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E891B428F577A3002DE988 /* colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A876B58428F9B4310094E884 /* countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countries.swift; sourceTree = "<group>"; };
+		A8A4176228F6E1FA00027D86 /* tabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBar.swift; sourceTree = "<group>"; };
+		A8A4176428F6E4CA00027D86 /* tabBarBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarBtn.swift; sourceTree = "<group>"; };
+		A8A4176628F8406600027D86 /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
 		A8E8917E28F5776A002DE988 /* weathapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weathapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E8918128F5776A002DE988 /* weathappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weathappApp.swift; sourceTree = "<group>"; };
 		A8E8918328F5776A002DE988 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +58,8 @@
 		A8E8919D28F5776B002DE988 /* weathappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weathappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E891A128F5776B002DE988 /* weathappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weathappUITests.swift; sourceTree = "<group>"; };
 		A8E891A328F5776B002DE988 /* weathappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weathappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A8E891B128F57791002DE988 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		A8E891B428F577A3002DE988 /* colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +110,8 @@
 		A8E8918028F5776A002DE988 /* weathapp */ = {
 			isa = PBXGroup;
 			children = (
+				A8E891B328F57798002DE988 /* constants */,
+				A8E891B028F57785002DE988 /* views */,
 				A8E8918128F5776A002DE988 /* weathappApp.swift */,
 				A8E8918328F5776A002DE988 /* ContentView.swift */,
 				A8E8918528F5776B002DE988 /* Assets.xcassets */,
@@ -131,6 +145,26 @@
 				A8E891A328F5776B002DE988 /* weathappUITestsLaunchTests.swift */,
 			);
 			path = weathappUITests;
+			sourceTree = "<group>";
+		};
+		A8E891B028F57785002DE988 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A8E891B128F57791002DE988 /* HomePage.swift */,
+				A8A4176228F6E1FA00027D86 /* tabBar.swift */,
+				A8A4176428F6E4CA00027D86 /* tabBarBtn.swift */,
+				A8A4176628F8406600027D86 /* CountryView.swift */,
+				A876B58428F9B4310094E884 /* countries.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		A8E891B328F57798002DE988 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				A8E891B428F577A3002DE988 /* colors.swift */,
+			);
+			path = constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +297,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E891B228F57791002DE988 /* HomePage.swift in Sources */,
+				A8E891B528F577A3002DE988 /* colors.swift in Sources */,
+				A876B58528F9B4310094E884 /* countries.swift in Sources */,
+				A8A4176528F6E4CA00027D86 /* tabBarBtn.swift in Sources */,
+				A8A4176728F8406600027D86 /* CountryView.swift in Sources */,
 				A8E8918B28F5776B002DE988 /* Persistence.swift in Sources */,
 				A8E8918428F5776A002DE988 /* ContentView.swift in Sources */,
 				A8E8918228F5776A002DE988 /* weathappApp.swift in Sources */,
+				A8A4176328F6E1FA00027D86 /* tabBar.swift in Sources */,
 				A8E8918E28F5776B002DE988 /* weathapp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
